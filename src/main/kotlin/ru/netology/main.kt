@@ -1,8 +1,8 @@
 package ru.netology
 
 fun main () {
-    val likes = 10002
+    val likes = 1011
 
-    var line = "Понравилось " + likes + if (likes % 10 == 1) " человеку" else " людям"
+    var line = "Понравилось " + likes + if (likes % 10 == 1 && likes % 100 != 11) " человеку" else " людям"
     println(line)
 }
